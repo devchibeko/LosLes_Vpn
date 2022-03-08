@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;710;800;900&disploy=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Rubik', sans-serif;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+}
+
+ul li {
+  list-style: none;
+}
+
+.row.header {
+  justify-content: space-between;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Logo */
+.logo-link {
+  display: flex;
+  align-items: center;
+}
+
+.logo-link h1 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23.7px;
+  color: #0b132a;
+}
+
+.logo-link span {
+  font-weight: 700;
+}
+
+/* Nav bar */
+.header ul {
+  display: flex;
+  align-items: center;
+}
+
+.nav-item {
+  margin: 0 20px;
+}
+
+.nav-item .nav-link {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  color: #4f5665;
+  text-transform: capitalize;
+  transition: 0.3s;
+}
+
+.nav-item .nav-link:hover {
+  color: #f53838;
+  text-decoration: underline;
+}
+
+/* Sign Blog */
+.sign-link {
+  color: #0b132a;
+  text-transform: capitalize;
+}
+
+.sign-item.sign-up {
+  margin-left: 30px;
+}
+
+.sign-up a {
+  color: #f53855;
+  padding: 13px 45px;
+  border: 1px solid #f53855;
+  border-radius: 50px;
+  transition: 0.5s;
+}
+
+.sign-up a:hover {
+  background: #f53855;
+  color: #fff;
+}
+
+.header {
+  padding: 45px;
+}
+
+/* Main Blog */
+.row.main {
+  padding: 40px 0;
+}
+
+.main-content {
+  width: 555px;
+}
+
+.main-title {
+  line-height: 70px;
+  color: #0b132a;
+  margin-bottom: 20px;
+}
+
+.main-text span {
+  font-weight: 700;
+}
+
+.main-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  color: #4f5665;
+  margin-bottom: 50px;
+}
+
+.main-link {
+  background: #f53855;
+  border-radius: 10px;
+  padding: 17px 77px;
+  color: #fff;
+  box-shadow: 0 22px 19px -20px #f53855;
+}
+
+.box-section {
+  background: #fAFAFA;
+  padding: 72px 91px;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+.box-section {
+  background-color: #fafafa;
+  padding: 72px 91px;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  display: inline-flex;
+  align-items: center;
+  border-right: 2px solid #eeeff2;
+  width: 30%;
+  justify-content: center;
+}
+
+.box-img {
+  padding: 19px;
+  border-radius: 50%;
+  background-color: #f538384d;
+}
+
+.box-text {
+  font-weight: 700;
+  font-size: 25px;
+  color: #0b132a;
+  margin-left: 36px;
+}
+
+.box-text span {
+  font-weight: 400;
+  color: #4f5665;
+}
